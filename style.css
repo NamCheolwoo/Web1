@@ -2,7 +2,7 @@ body {
   margin:0;
 }
 a {
-  color:black;
+  color:red;
 }
 h1 {
   font-size: 45px;
@@ -11,7 +11,7 @@ h1 {
   margin:0;
   padding:20px;
 }
-ol {
+#list {
   border-right:1px solid gray;
   width:100px;
   margin:0;
@@ -22,7 +22,7 @@ ol {
   grid-template-columns: 150px 1fr;
 }
 #grid ol{
-  padding-left:33px;
+  padding-left:20px;
 }
 #grid #article{
   padding-left: 25px;
@@ -32,7 +32,7 @@ ol {
   #grid{
     display: block;
   }
-  ol {
+  #list {
     border-right:none;
   }
   h1 {
